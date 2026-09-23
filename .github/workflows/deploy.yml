@@ -43,4 +43,4 @@ jobs:
       - working-directory: /home/devg/my-folder/Java_Questions/prod
         run: |
           docker compose pull frontend
-          docker compose up -d --no-deps frontend
+          docker compose up -d frontend
